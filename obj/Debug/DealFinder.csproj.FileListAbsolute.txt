@@ -1,0 +1,2 @@
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\AmazonProductAdvtApiSample.exe
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\AmazonProductAdvtApiSample.pdb

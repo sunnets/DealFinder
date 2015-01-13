@@ -1,0 +1,5 @@
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\bin\Debug\AmazonProductAdvtApiSample.exe
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\bin\Debug\AmazonProductAdvtApiSample.pdb
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\Sample.csprojResolveAssemblyReference.cache
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\AmazonProductAdvtApiSample.exe
+C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\AmazonProductAdvtApiSample.pdb
