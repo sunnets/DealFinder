@@ -1,2 +1,9 @@
 C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\AmazonProductAdvtApiSample.exe
 C:\Users\mehrakv\Desktop\AmazonProductAdvtApiSampleCSharpQuery\Sample\obj\Debug\AmazonProductAdvtApiSample.pdb
+C:\Mehrak\DealFinder\obj\Debug\AmazonProductAdvtApiSample.exe
+C:\Mehrak\DealFinder\obj\Debug\AmazonProductAdvtApiSample.pdb
+C:\Mehrak\DealFinder\obj\Debug\DealFinder.csprojResolveAssemblyReference.cache
+C:\Mehrak\DealFinder\bin\Debug\AmazonProductAdvtApiSample.exe.config
+C:\Mehrak\DealFinder\bin\Debug\AmazonProductAdvtApiSample.exe
+C:\Mehrak\DealFinder\bin\Debug\AmazonProductAdvtApiSample.pdb
+C:\Mehrak\DealFinder\bin\Debug\AWSSDK.xml

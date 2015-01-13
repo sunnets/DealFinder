@@ -26,19 +26,20 @@ using System.Net;
 using System.IO;
 using System.Xml;
 using System.Xml.XPath;
+using AmazonSESSample;
 
 namespace AmazonProductAdvtApi
 {
     class ItemLookupSample
     {
-        private const string MY_AWS_ACCESS_KEY_ID = "AKIAJ5WNOZNQ6SG2OXIQ";
-        private const string MY_AWS_SECRET_KEY = "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";
+        private const string MY_AWS_ACCESS_KEY_ID = "";
+        private const string MY_AWS_SECRET_KEY = "";
         private const string DESTINATION          = "ecs.amazonaws.com";
         private const string ASSOCIATE_TAG = "wwwproductwat-20";
 
         private const string NAMESPACE = "http://webservices.amazon.com/AWSECommerceService/2011-08-01";
-        //private const string ITEM_ID = "B004RRC7YY";
-        private const string ITEM_ID = "B0007X74D6";
+        private const string ITEM_ID = "B004RRC7YY";
+        //private const string ITEM_ID = "B0007X74D6";
 
         public static void Main()
         {
@@ -69,8 +70,11 @@ namespace AmazonProductAdvtApi
             requestUrl = helper.Sign(r1);
             title = FetchTitle(requestUrl);
 
+            String body = "";
             System.Console.WriteLine("Method 1: ItemLookup Dictionary form.");
+            body = body + "Title is \"" + title + "\"";
             System.Console.WriteLine("Title is \"" + title + "\"");
+            body = body + "Title is \"" + title + "\"";
             System.Console.WriteLine();
 
             
@@ -81,7 +85,10 @@ namespace AmazonProductAdvtApi
 
             System.Console.WriteLine("Method 1: ItemLookup Dictionary form.");
             System.Console.WriteLine("Price is \"" + price + "\"");
+            body = body + "Price is \"" + price + "\"";
             System.Console.WriteLine();
+
+            Mail.sendMail(body);
            
             /*
              * Here is an example where the request is stored as a query-string:
@@ -128,8 +135,8 @@ namespace AmazonProductAdvtApi
             }
 
 
-            System.Console.WriteLine("Hit Enter to end");
-            System.Console.ReadLine();
+        //    System.Console.WriteLine("Hit Enter to end");
+       //     System.Console.ReadLine();
         }
         
 
